@@ -20,7 +20,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'neethu-docker-hub'
-        repository: 'neecleetus/currency-exchange-devops'
+        repository: 'neethucleetus/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
